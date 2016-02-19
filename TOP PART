@@ -1,1 +1,227 @@
 Rama para Trabajar sobre TOP PART(Velocity, Search, profile,etc)
+
+---------------------------------------------------------------------------------------------
+Atributos a Probar:
+
+-Search: Caja de busqueda, donde se ingresa valores donde aparzcan en el proyecto.
+--Filtro de busqueda
+---Title (default)
+---By content
+---By comment
+---Owner
+---Requester
+
+-Velocity: Lugar donde muestra la velocidad demandada por el proyecto.
+--Por defecto "0"
+
+-Profile: Muestra el correo de la persona que esta logueada al proyecto
+--email usuario
+--Manage Token
+
+
+--------------------------------------------------------------------------------
+
+Test Case 0:
+
+Título: Verificar si funciona el "Search"
+Descripción:Verificar si el "Search" para una busqueda cualquiera devuelve alguna respuesta.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 1:
+
+Título: Realizar una busqueda con el filtro por defecto
+Descripción: Realizar una busqueda en la "Search" sin realizar ningun cambio en el filtro. Trabajar con la opcion por defecto "Title".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 2:
+
+Título: Realizar una busqueda con el filtro "By content"
+Descripción: Realizar una busqueda en la "Search" eligiendo el filtro "By content".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 3:
+
+Título: Realizar una busqueda con el filtro "By comment"
+Descripción: Realizar una busqueda en la "Search" eligiendo el filtro "By comment".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 4:
+
+Título: Realizar una busqueda con el filtro "Owner"
+Descripción: Realizar una busqueda en la "Search" eligiendo el filtro "Owner".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 5:
+
+Título: Realizar una busqueda con el filtro "Owner"
+Descripción: Realizar una busqueda en la "Search" eligiendo el filtro "Owner".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+
+Test Case 6:
+
+Título: Verificar la opcion por defecto del "Search" despues de actualizar la pagina
+Descripción: Verificar si la opcion "Title" del "Search" vuelve opcion por defecto despues de actualizar la pagina .
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+
+Test Case 7:
+
+Título: Verificar el tipo de entrada para el "Search" para el filtro "Title"
+Descripción: Verificar con datos alfanumericos el tipo de datos que acepta el "Search" para realizar busquedas con el filtro para el filtro "Title".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 8:
+
+Título: Verificar el tipo de entrada para el "Search" para el filtro "By content"
+Descripción: Verificar con datos alfanumericos el tipo de datos que acepta el "Search" para realizar busquedas con el filtro para el filtro "By content".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 9:
+
+Título: Verificar el tipo de entrada para el "Search" para el filtro "By comment"
+Descripción: Verificar con datos alfanumericos el tipo de datos que acepta el "Search" para realizar busquedas con el filtro para el filtro "By Comment".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 10:
+
+Título: Verificar el tipo de entrada para el "Search" para el filtro "Owner"
+Descripción: Verificar con datos alfanumericos el tipo de datos que acepta el "Search" para realizar busquedas con el filtro para el filtro "Owner".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test Case 11:
+
+Título: Verificar el tipo de entrada para el "Search" para el filtro "Requester"
+Descripción: Verificar con datos alfanumericos el tipo de datos que acepta el "Search" para realizar busquedas con el filtro para el filtro "Requester".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 12:
+
+Título: Verificar una entrada vacia en el "Search" para el filtro "Title"
+Descripción:Queremos verificar que ocurre cuando se realiza una busqueda sin escribir nada en el cuadro de busqueda y con el el filtro "Title".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Test Case 13:
+
+Título: Verificar una entrada vacia en el "Search" para el filtro "By content"
+Descripción:Queremos verificar que ocurre cuando se realiza una busqueda sin escribir nada en el cuadro de busqueda y con el el filtro "By content".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test Case 14:
+
+Título: Verificar una entrada vacia en el "Search" para el filtro "By comment"
+Descripción:Queremos verificar que ocurre cuando se realiza una busqueda sin escribir nada en el cuadro de busqueda y con el el filtro "By comment".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test Case 15:
+
+Título: Verificar una entrada vacia en el "Search" para el filtro "Owner"
+Descripción:Queremos verificar que ocurre cuando se realiza una busqueda sin escribir nada en el cuadro de busqueda y con el el filtro "Owner".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+
+Test Case 16:
+
+Título: Verificar una entrada vacia en el "Search" para el filtro "Requester"
+Descripción:Queremos verificar que ocurre cuando se realiza una busqueda sin escribir nada en el cuadro de busqueda y con el el filtro "Requester".
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
