@@ -62,6 +62,84 @@ Se deben cargar los eventos que no esten presentes en la terjeta y que hayan ocu
 
 
 
+Feature:
+	Mostrar ventana modal al seleccionar la opcion find by players del menu project history
+Descripcion:
+	Al seleccionar la opcion Find By Players del menu de la tarjeta project history se debe mostrar una pantalla modal.
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion Find By user story del menu project history
+Descripcion:
+	Al seleccionar la opcion Find By user story del menu de la tarjeta project history se debe mostrar una pantalla modal.
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion Find by Type del menu project history	
+Descripcion:
+	Al seleccionar la opcion Find By Type del menu de la tarjeta project history se debe mostrar una pantalla modal.
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion Find by date del menu project history	
+Descripcion:
+	Al seleccionar la opcion Find By date del menu de la tarjeta project history se debe mostrar una pantalla modal.
+
+
+feature:
+	Cerrar ventana modal de la opcion find By Players presionando  el icono "X"
+Descripcion 
+	Cerrar modal Audit by players  al hacer click sobre el icono "X" ubicado en la parte superior derecha de la ventana
+
+
+Feature:
+	Cargar lista de players en el modal Audit by players
+Descripcion:
+	Una lista de los players participantes en el proyecto debe ser cargada en la opcion name of players
+
+
+feature:
+	Hacer auditoria por usuari(audit by player)
+Descripcion:
+	Al presionar el boton send de la ventana modal Find by Players(Audit By Players) se debe mostrar una lista de eventos de los que el player seleccionado sea el autor en la tarjeta project history
+
+
+Feature:
+	Cargar lista de user stories en la ventana modal "Audit By User Story"
+Descripcion:
+	Una lista de los titulos de los user stories creados en el proyecto debe ser cargada en la opcion name of User stories
+
+
+feature:
+	Hacer auditoria por user story
+Descripcion:
+	Al presionar el boton send de la ventana modal Find by User story(Audit By user story) se debe mostrar en la tarjeta project history todos los eventos por los que esa historia de usuario ha pasado.
+
+
+Feature:
+	load list of action types(Evento)
+Description:
+	when modal window of audit by type(find by type) is loaded
+a list of action types moust be cargado en la opcion de name of action types
+
+
+feature:
+	Hacer auditoria by type actions
+Descripcion:
+	Al presionar el boton send de la ventana modal Find By Type(Audit by type) se debe mostrar en la tarjeta project history todos los eventos(actions) que hagan match con la action selected
+
+
+Feature:
+	Hacer auditoria by date
+Description:
+	Al presionar el boton sen de la ventana modal find by Date(Audit by date) se debe mostrar en la tarjeta project history todos los eventos ocurridos entre las fechas seleccionads
+
+	
+	
+
+
+
+
 
 
 
