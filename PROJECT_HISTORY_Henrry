@@ -1,5 +1,5 @@
 #PROJECT HISTORY 
-
+--------------------------------------------------------------------------------
 Atributos:
 	Titulo de la tarjeta:"Project History"
 	Icono de tarjeta: Lapiz
@@ -17,7 +17,7 @@ Atributos:
 			cuando es de escritura="It was added in  or deleted from the project on 19/1/2016-8:47"
 			cuando es de modificacion="the followin properties was modified:[atributos modificados] on dia/mes/anio-hora:minuto "
 
-
+--------------------------------------------------------------------------------
 
 Funcionalidad(test case aceptacion):Guardar eventos(creacion,modificacion,eliminacion) de las historias de usuario en el historial
 
