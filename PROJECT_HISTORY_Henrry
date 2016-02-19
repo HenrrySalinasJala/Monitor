@@ -1,0 +1,67 @@
+#PROJECT HISTORY 
+
+Atributos:
+	Titulo de la tarjeta:"Project History"
+	Icono de tarjeta: Lapiz
+	cabecera event
+		Titulo del evento
+		Icono descriptivo deacuerdo al evento:
+			Feature=estrella
+			bug=a bug
+			spike=un engrane
+			Release Line=bandera
+	descripcion event
+		Nombre del autor que provoco el evento
+		Cuando fue el evento(second or minutes or hours)
+		tooltip on icon(lapiz=escritura, hoja=modificacion) que contiene el mensaje
+			cuando es de escritura="It was added in  or deleted from the project on 19/1/2016-8:47"
+			cuando es de modificacion="the followin properties was modified:[atributos modificados] on dia/mes/anio-hora:minuto "
+
+
+
+Funcionalidad(test case aceptacion):Guardar eventos(creacion,modificacion,eliminacion) de las historias de usuario en el historial
+
+Feature:
+	Eliminar un evento del historial
+Descripcion:
+	Un evento que se encuentra en la tarjeta Project history puede ser eliminada
+
+
+
+Feature:
+	Guardar evento al crear una histria de usuario en Historial
+Descripcion:
+	Cuando se crea una historia de usuario este debe ser mostrado como un nuevo evento 
+con todos sus atributos en la tarjeta "Project History" 
+
+
+Feature:
+	mostrar evento en el historial cuando se elimine una historia de usua en elrio 
+Descripcion:
+	Cuando se elimina una historia de usuario este debe ser almacenado en la tarjeta "Project History" como un nuevo evento con todos sus atributos.
+
+
+Feature:
+	Guardar evento al modificar el estado de una historia de usuario en el historial
+Descripcion:
+	Cuando se modifica el State[unstarted, started, finished, delivered, rejected, accepted] de una historia de usuario este debe ser almacenado en la tarjeta "Project History" como un nuevo evento con todos sus atributos.
+
+Feature(test case de aceptacion):
+	Desplegar menu de la tarjeta project history
+Descripcion
+	Al presionar el icono de la tarjeta project history se debe desplegar 
+un menu con las siguientes opciones [Refresh, Find by players, Find by User Story,
+Find by Type, Find By Date]
+	
+
+feature:
+	Actualizar(refresh)  los eventos de la tarjeta "Project History" 
+Description
+	Al presionar la opcion Refresh del menu de la tarjeta project history
+Se deben cargar los eventos que no esten presentes en la terjeta y que hayan ocurridos antes de la ultima actualizacion.
+
+
+
+
+
+
