@@ -19,27 +19,14 @@ Atributos:
 
 --------------------------------------------------------------------------------
 
-Funcionalidad(test case aceptacion):Guardar eventos(creacion,modificacion,eliminacion) de las historias de usuario en el historial
+Funcionalidad(test case aceptacion):Guardar eventos/actions(creacion,modificacion,eliminacion) de las historias de usuario en el historial
 
 
 
 Feature:
-	Eliminar un evento del historial
+	Guardar evento al crear un user story en Historial
 Descripcion:
-	Un evento que se encuentra en la tarjeta Project history puede ser eliminada
-Requerimientos:
-*Software:
-*Hardware:
-Prioridad:
-Pasos:
-Resultado esperado:
-
-
-Feature:
-	Guardar evento al crear una histria de usuario en Historial
-Descripcion:
-	Cuando se crea una historia de usuario este debe ser mostrado como un nuevo evento 
-con todos sus atributos en la tarjeta "Project History" 
+	Cuando se crea un user story este debe ser mostrado como un nuevo evento/action con todos sus atributos en la tarjeta "Project History" 
 Requerimientos:
 *Software:
 *Hardware:
@@ -185,7 +172,7 @@ Pasos:
 Resultado esperado:
 
 
-Feature:
+Feature(bug in here):
 	Cargar lista de user stories en la ventana modal "Audit By User Story"
 Descripcion:
 	Una lista de los titulos de los user stories creados en el proyecto debe ser cargada en la opcion name of User stories
@@ -197,7 +184,7 @@ Pasos:
 Resultado esperado:
 
 
-feature:
+feature(bug in here):
 	Hacer auditoria por user story
 Descripcion:
 	Al presionar el boton send de la ventana modal Find by User story(Audit By user story) se debe mostrar en la tarjeta project history todos los eventos por los que esa historia de usuario ha pasado.
@@ -209,7 +196,7 @@ Pasos:
 Resultado esperado:
 
 
-Feature:
+Feature(bug in here):
 	load list of action types(Evento)
 Description:
 	when modal window of audit by type(find by type) is loaded
@@ -222,7 +209,7 @@ Pasos:
 Resultado esperado:
 
 
-feature:
+feature(bug in here):
 	Hacer auditoria by type actions
 Descripcion:
 	Al presionar el boton send de la ventana modal Find By Type(Audit by type) se debe mostrar en la tarjeta project history todos los eventos(actions) que hagan match con la action selected
@@ -234,7 +221,7 @@ Pasos:
 Resultado esperado:
 
 
-Feature:
+Feature(bug in here):
 	Hacer auditoria by date
 Description:
 	Al presionar el boton sen de la ventana modal find by Date(Audit by date) se debe mostrar en la tarjeta project history todos los eventos ocurridos entre las fechas seleccionads
@@ -245,7 +232,17 @@ Prioridad:
 Pasos:
 Resultado esperado:
 	
-	
+
+Feature(for you consideration):
+	Eliminar un evento del historial
+Descripcion:
+	Un evento que se encuentra en la tarjeta Project history puede ser eliminada
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
 
 
 
