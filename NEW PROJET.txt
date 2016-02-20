@@ -1,0 +1,47 @@
+Funcionalidad(test case aceptation)
+
+Feature:Desplegar menu de New Project  
+Description:Al presiona en el boton New Project muestra un menu:
+            Project Tiltle, Project Start Date, 
+            Iteration Length, Point Scale, Velocity Strategy
+            and Number of Done Iterations to Show.   
+Expected Result:Muestra en DASHBOARD el nombre del proyecto creado.
+
+Feature:Cerrar Fomulario New Project
+Description:Al presiona el icono de cierre de la ventana (X) deja de mostrarse el formulario
+Expected Result:Se cierra el formulario de New Project sin afectar al DASHBOARD
+
+Feature:Cerrar Fomulario New Project
+Description:Cuando se presiona el boton CLOSE se cierra el formulario y no se agrega a la lista DashBoard 
+Expected Result:Se cierra el formulario de New Project y no se produce cambios en la lista DashBoard.0
+
+Feature:Ingresar nombre del Proyecto en Project Title
+Description:(Typre in title of the Proyect )Area de texto donde se escribe el nombre del proyecto  Typre in title of the Proyect se puede escribir . 
+Expected Result:Se cierra el formulario de New Project.
+
+Feature:Escoger la fecha de Inicio del Proyecto
+Description:Al presionar en Project Start Date, se puede escoger la fecha del inicio del proyecto
+Expected Result: Fecha del Inicio del Proyecto
+
+Feature:Desplegar un submenu de Iteration Length
+Description:Al presionar en el area de texto con valor 1 o en la imagen de despliegue
+            se puede escoger el numero de iteraciones del proyecto desde 1 hasta 4
+Expected Result:El numero de iteraciones del proyecto
+
+Feature:Desplegar un submenu de Point Scale
+Description:Despues de presionar en el area con texto con Fibonacci y se despliega un menu: Powers of two, Linear
+Expected Result:Un valor para determinar el punto que se le va a valorar a una tarea
+
+Feature:Desplegar un submenu de Velocity Strategy
+Description:Submenu que contiene el promedio de velocidad de iteracion
+             Average of 1 iteration, Average of 2 iteration, Average of 3 iteration and Average of 4 iteration
+Expected Result:Estrategia de velocidad del proyecto
+
+Feature: Guardar el nuevo proyecto 
+Description:Al presionar el boton SAVE el proyecto creado se guarda
+Expected Result:Creacion del nuevo proyecto
+
+Bug:
+Feature: Elegir una fecha anterior  
+Description:Al presionar en Project Start Date se puede escoger una fecha pasada
+Expected Result:Creacion del nuevo proyecto con fecha anterior
