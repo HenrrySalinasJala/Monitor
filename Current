@@ -1,1 +1,117 @@
-Probando lineas
+Texto para hacer test cases de la pestaña CURRENT
+=================================================
+
+Atributos a probar:
+
+- Pestaña "Current"
+- Iconos de notificacion
+	- Esfuerzo requerido "Points".
+	- Tipo de historia "Story type".
+	- Estado actual "State"
+- Titulo de la historia
+- fecha de creacion del proyecto 
+
+
+
+Test case Nº 001
+Titulo: Comprobar que el icono de notificacion "Feature" coincida con la palabra "Feature" del campo interno" State".
+Descripcion: El icono de notificacion "Feature", que es una imagen solida de una estrella, debe coincidir
+	     con la palabra "feature" que se encuentra dentro el campo interno "State" de la historia seleccionada.
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 002
+Titulo: Comprobar que el icono de notificacion "Bug" coincida con la palabra "Bug"
+	del campo interno "State".
+Descripcion: El icono de notificacion "Bug", que es una imagen solida de un bicho, debe coincidir con la palabra "bug" 
+que se encuentra dentro el campo interno "State" de la historia seleccionada.
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 003
+Titulo: Comprobar que el icono de notificacion "Spike" coincida con la palabra "Spike"
+	del campo interno "State".
+Descripcion: El icono de notificacion "Spike", que es una imagen solida de 3 linas conectadas por 3 puntos, debe coincidir
+con la palabra "spike" que se encuentra dentro el campo interno "State" de la historia seleccionada.
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 004
+Titulo: Comprobar que el icono de notificacion "Release Line" coincida con la palabra "Release Line"
+	del campo interno"State".
+Descripcion: El icono de notificacion "Release Line", que es una imagen solida de una bandera extendida, debe coincidir
+con el campo de "State" indicando la opcion "Release Line".
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 005
+Titulo: Comprobar que cualquier "User Story" puede ser movido o "arrastrado" a la pestaña "Backlog".
+Descripcion: Comprobar que cualquier "User Story" dentro la pestaña "Current" puede ser movido o "arrastrado" a la
+pestaña "Backlog".
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 006
+Titulo: Comprobar que un "User story" puede ser movido o "arrastrado" dentro el area de la pestaña "Current".
+Descripcion: Comprobar que un "User story" puede ser movido o "arrastrado" dentro el area de la pestaña "Current" usando el
+	     puntero del mouse.
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 007
+Titulo: Comprobar que la caja del "User Story" puede ser modificado.
+Descripcion: Comprobar que la caja del "User Story" pueda ser modificado en cualquier momento haciendo click sobre la caja.
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 008
+Titulo: Comprobar que el "User Story" puede ser borrado.
+Descripcion: Comprobar que el "User Story" puede ser borrado con el boton "Delete" que es representado por un icono 
+con una imagen de un basurero.
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+Test case Nº 009
+Titulo: Comprobar que el campo Esfuerzo requerido puede cambiarse.
+Descripcion: Comprobar que el campo Esfuerzo requerido puede cambiarse a otro nivel dentro el "User Story".
+Requerimientos:
+	- hardware:
+	- software:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+
