@@ -1,0 +1,259 @@
+Difinir terminologia? que va a ser evento o action
+Definir niveles de prioridad? 
+* 1 el mas alto or 1 el mas alto
+
+
+
+#PROJECT HISTORY 
+--------------------------------------------------------------------------------
+Atributos:
+	Titulo de la tarjeta:"Project History"
+	Icono de tarjeta: Lapiz
+	cabecera event
+		Titulo del evento
+		Icono descriptivo deacuerdo al evento:
+			Feature=estrella
+			bug=a bug
+			spike=un engrane
+			Release Line=bandera
+	descripcion event
+		Nombre del autor que provoco el evento
+		Cuando fue el evento(second or minutes or hours)
+		tooltip on icon(lapiz=escritura, hoja=modificacion) que contiene el mensaje
+			cuando es de escritura="It was added in  or deleted from the project on 19/1/2016-8:47"
+			cuando es de modificacion="the followin properties was modified:[atributos modificados] on dia/mes/anio-hora:minuto "
+
+--------------------------------------------------------------------------------
+
+requirement(test case aceptacion):Guardar eventos/actions(creacion,modificacion,eliminacion) de las historias de usuario en el historial
+
+
+
+TC:
+	Guardar evento al crear un user story en Historial
+Descripcion:
+	Cuando se crea un user story este debe ser mostrado como un nuevo evento/action con todos sus atributos en la tarjeta "Project History" 
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature:
+	mostrar evento en el historial cuando se elimine una historia de usua en elrio 
+Descripcion:
+	Cuando se elimina una historia de usuario este debe ser almacenado en la tarjeta "Project History" como un nuevo evento con todos sus atributos.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature:
+	Guardar evento al modificar el estado de una historia de usuario en el historial
+Descripcion:
+	Cuando se modifica el State[unstarted, started, finished, delivered, rejected, accepted] de una historia de usuario este debe ser almacenado en la tarjeta "Project History" como un nuevo evento con todos sus atributos.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature(test case de aceptacion):
+	Desplegar menu de la tarjeta project history
+Descripcion
+	Al presionar el icono de la tarjeta project history se debe desplegar 
+un menu con las siguientes opciones [Refresh, Find by players, Find by User Story,
+Find by Type, Find By Date]
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:1
+Pasos:
+Resultado esperado:
+
+	
+
+feature:
+	Actualizar(refresh)  los eventos de la tarjeta "Project History" 
+Description
+	Al presionar la opcion Refresh del menu de la tarjeta project history
+Se deben cargar los eventos que no esten presentes en la terjeta y que hayan ocurridos antes de la ultima actualizacion.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion "Find By players] del menu project history
+Descripcion:
+	Al seleccionar la opcion Find By Players del menu de la tarjeta project history se debe mostrar una pantalla modal.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion Find By user story del menu project history
+Descripcion:
+	Al seleccionar la opcion Find By user story del menu de la tarjeta project history se debe mostrar una pantalla modal.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion Find by Type del menu project history	
+Descripcion:
+	Al seleccionar la opcion Find By Type del menu de la tarjeta project history se debe mostrar una pantalla modal.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+
+Feature:
+	Mostrar ventana modal al seleccionar la opcion Find by date del menu project history	
+Descripcion:
+	Al seleccionar la opcion Find By date del menu de la tarjeta project history se debe mostrar una pantalla modal.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+feature:
+	Cerrar ventana modal de la opcion find By Players presionando  el icono "X"
+Descripcion 
+	Cerrar modal Audit by players  al hacer click sobre el icono "X" ubicado en la parte superior derecha de la ventana
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature:
+	Cargar lista de players en el modal Audit by players
+Descripcion:
+	Una lista de los players participantes en el proyecto debe ser cargada en la opcion name of players
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+feature:
+	Hacer auditoria por usuari(audit by player)
+Descripcion:
+	Al presionar el boton send de la ventana modal Find by Players(Audit By Players) se debe mostrar una lista de eventos de los que el player seleccionado sea el autor en la tarjeta project history
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature(bug in here):
+	Cargar lista de user stories en la ventana modal "Audit By User Story"
+Descripcion:
+	Una lista de los titulos de los user stories creados en el proyecto debe ser cargada en la opcion name of User stories
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+feature(bug in here):
+	Hacer auditoria por user story
+Descripcion:
+	Al presionar el boton send de la ventana modal Find by User story(Audit By user story) se debe mostrar en la tarjeta project history todos los eventos por los que esa historia de usuario ha pasado.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature(bug in here):
+	load list of action types(Evento)
+Description:
+	when modal window of audit by type(find by type) is loaded
+a list of action types moust be cargado en la opcion de name of action types
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+feature(bug in here):
+	Hacer auditoria by type actions
+Descripcion:
+	Al presionar el boton send de la ventana modal Find By Type(Audit by type) se debe mostrar en la tarjeta project history todos los eventos(actions) que hagan match con la action selected
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+Feature(bug in here):
+	Hacer auditoria by date
+Description:
+	Al presionar el boton sen de la ventana modal find by Date(Audit by date) se debe mostrar en la tarjeta project history todos los eventos ocurridos entre las fechas seleccionads
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+	
+
+Feature(for you consideration):
+	Eliminar un evento del historial
+Descripcion:
+	Un evento que se encuentra en la tarjeta Project history puede ser eliminada
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+
+
+
+
+
+
+
+

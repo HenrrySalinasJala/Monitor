@@ -1,0 +1,125 @@
+
+
+#TOP_PART
+--------------------------------------------------------------------------------
+Atributos:
+	JAT icon
+	Dashboard button
+	Profile[icon user,email user,token]
+	Velocity
+	Name of Project
+	Add story[button]
+	Search textbox
+	Tab buttons
+
+	
+	
+
+--------------------------------------------------------------------------------
+
+
+
+
+TC 1:
+Title: 
+Display projects list screen
+Description:
+	When “DashBoard” button is pressed, la interfaz de lista de proyectos se muestra en pantalla.
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:1
+Pasos:
+Resultado esperado:
+	The Project list interface is displayed
+
+
+
+TC 2:
+	Determinar la velocidad del sprint
+Description:
+	La velocidad será igual a la suma de las estimaciónes de historias de usuario en estado “accepted” en la tarjeta “Done”  
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+	La velocidad es igual a la suma de las estimaciónes de historias de usuario
+
+TC 3:
+	mostrar la velocidad del sprint
+Description:
+	Una vez determinada la velocidad del sprint(ver test case #2) este se muestra al lado de la etiqueta “Velocity:”
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:2
+Pasos:
+Resultado esperado:
+	La velodidad del sprint se muestra.
+
+
+TC 4:
+Title:
+	mostrar velocidad de sprint por defecto
+Description:
+	Al iniciar el projecto, mostrar como velocidad del proyecto el numero 0 
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+	Se muestra la velocidad del proyecto por defecto.
+
+
+/*En esta feature antes de cargar el formulario se debería mostrar en un combo box el tipo de objeto que se va a crear[feature, bug, spike, reléase line]*/
+
+TC 5:
+Title:
+	Mostrar formulario para agregar una historia 
+Descripcion:
+	Al hacer click sobre el botón “Add Story”, mostrar en la tarjeta “IceBox” un formulario con los datos de creación de una historia de usuario.  
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+	El formulario de creación de nueva historia se muestra en la tarjeta “IceBox”		
+
+
+TC 6:
+Title:
+	Esconder la tarjeta “Done”
+Descripcion:
+	Al presionar sobre el botón “DONE” de la parte superior de las tarjetas, la tarjeta “Done” deja de ser visible
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+	La tarjeta ”Done” deja de ser visible
+
+
+TC 7:
+Title:
+	Mostrar tarjeta “done”
+Descripcion:
+Al presionar sobre el botón “DONE” de la parte superior de las tarjetas, la tarjeta “Done” se muestra en pantalla.
+
+Requerimientos:
+*Software:
+*Hardware:
+Prioridad:
+Pasos:
+Resultado esperado:
+	la tarjeta “Done” se muestra en pantalla
+
+
+/*
+*Repetir los test cases 6 y 7 para las tarjetas de [current, backlog,IceBox, Tags, Players, Projects Hitory]
+*/
+
