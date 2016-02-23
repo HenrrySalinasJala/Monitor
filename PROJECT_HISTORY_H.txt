@@ -132,14 +132,29 @@ un menu con las siguientes opciones [Refresh, Find by players, Find by User Stor
 Find by Type, Find By Date]
 Requerimientos:
 *Software:
-*Hardware:
+-google chrome 48.0.2564.109 version
+-Windows XP/7/8/10 
+*Hardware: 
+-a machine(screen and Case) with internet conection
+*Setup:
 Prioridad:1
 Pasos:
-Resultado esperado:
+1.loguearse en el sistema con un usuario autorizado ej user:admin & pass:admin
+2.se muestra lista de proyectos existentes
+	2.1.no existen proyectos 
+	2.2. crear un proyecto nuevo
+3.seleccionar un proyecto 
+4.se muestra la interfaz del proyecto
+5.hacer click en el icono del lapiz del board de "Project History"
+	5.1. si el board "Project History no esta visible"
+	5.2. presionar sobre el boton "project history" del top menu
 
+Resultado esperado:
+	se despliega el menu de la tarjeta project history con las opciones [Refresh, Find by players, Find by User Story,Find by Type, Find By Date]
 	
 
-feature:
+
+feature(NOta: la actualizacion deberia ser automatica):
 	Actualizar(refresh)  los eventos de la tarjeta "Project History" 
 Description
 	Al presionar la opcion Refresh del menu de la tarjeta project history
@@ -152,8 +167,10 @@ Pasos:
 Resultado esperado:
 
 
+
+/*************
 Feature:
-	Mostrar ventana modal al seleccionar la opcion "Find By players] del menu project history
+	Mostrar ventana modal al seleccionar la opcion "Find By players" del menu de project history
 Descripcion:
 	Al seleccionar la opcion Find By Players del menu de la tarjeta project history se debe mostrar una pantalla modal.
 Requerimientos:
