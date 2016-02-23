@@ -30,39 +30,98 @@ requirement(test case aceptacion):Guardar eventos/actions(creacion,modificacion,
 
 
 TC:
-	Guardar evento al crear un user story en Historial
+	Guardar "action" al crear un "user story" en Historial
 Descripcion:
-	Cuando se crea un user story este debe ser mostrado como un nuevo evento/action con todos sus atributos en la tarjeta "Project History" 
+	Cuando se crea un user story este debe ser mostrado como un nuevo "action" en la tarjeta "Project History" 
 Requerimientos:
 *Software:
-*Hardware:
-Prioridad:
+-google chrome 48.0.2564.109 version
+-Windows XP/7/8/10 
+*Hardware: 
+-a machine(screen and Case) with internet conection
+*Setup:
+Prioridad: 2
 Pasos:
+1.loguearse en el sistema con un usuario autorizado ej user:admin & pass:admin
+2.se muestra lista de proyectos existentes(si no existe crear un nuevo projecto)
+3.seleccionar proyecto 
+4.se muestra la interfaz del proyecto
+5.hacer click en el boton "+Add Story"
+6.se despliega un formulario en el board de "IceBox" 
+7.llenar los datos requeridos en el formulario
+8.Click en el boton "save" del formulario desplegado
+9.se cierra el formulario.
 Resultado esperado:
+	el action de creacion del user story se muestra en el board "Project History"
+Resultado actual:
+	el action no se muestra, se debe hacer un refresh para que  se muestre
+
+
+
 
 
 Feature:
-	mostrar evento en el historial cuando se elimine una historia de usua en elrio 
+	mostrar "action" en el historial cuando se elimine una historia de usuario 
 Descripcion:
-	Cuando se elimina una historia de usuario este debe ser almacenado en la tarjeta "Project History" como un nuevo evento con todos sus atributos.
+	Cuando se elimina una historia de usuario este debe ser almacenado en la tarjeta "Project History" como una nueva "action"
 Requerimientos:
 *Software:
-*Hardware:
-Prioridad:
+-google chrome 48.0.2564.109 version
+-Windows XP/7/8/10 
+*Hardware: 
+-a machine(screen and Case) with internet conection
+*Setup:
+Prioridad:2
 Pasos:
+1.loguearse en el sistema con un usuario autorizado ej user:admin & pass:admin
+2.se muestra lista de proyectos existentes(si no existe crear un nuevo projecto)
+3.seleccionar proyecto 
+4.se muestra la interfaz del proyecto
+5.hacer click en el icono ">" de un user story
+6.se despliega el formulario correspondiente al user story seleccionado
+7.hacer click en el icono de papelera
+8.se despliega un cuadro de dialogo con el mensaje "do you want to delete the current user story?"
+9.presionar  el boton "Yes"
+
 Resultado esperado:
+	el action de eliminacion del user story se muestra en  board "Project History"
+Resultado actual:
+	la action no se muestra, se debe hacer un refresh para que se muestre
+
+Una historia de usuario puede ser creada con los siguientes atributos:-
+
+
+
 
 
 Feature:
-	Guardar evento al modificar el estado de una historia de usuario en el historial
+	Guardar action al actualizar[Title,Story type,Points,State,Requester,Owner,description,acceptance criteria,task,attachments] de una historia de usuario en el historial
 Descripcion:
-	Cuando se modifica el State[unstarted, started, finished, delivered, rejected, accepted] de una historia de usuario este debe ser almacenado en la tarjeta "Project History" como un nuevo evento con todos sus atributos.
+	Cuando se modifica un atributo de una story este debe ser almacenado en la tarjeta "Project History" como un nuevo action.
 Requerimientos:
 *Software:
-*Hardware:
-Prioridad:
+-google chrome 48.0.2564.109 version
+-Windows XP/7/8/10 
+*Hardware: 
+-a machine(screen and Case) with internet conection
+*Setup:
+Prioridad:2
 Pasos:
+1.loguearse en el sistema con un usuario autorizado ej user:admin & pass:admin
+2.se muestra lista de proyectos existentes(si no existe crear un nuevo projecto)
+3.seleccionar proyecto 
+4.se muestra la interfaz del proyecto
+5.hacer click en el icono ">" de un user story
+6.se despliega el formulario correspondiente al user story seleccionado
+7.modificar un atributo 
+8.presionar  el boton "Save"
 Resultado esperado:
+	El action de actualizacion se muestra en la tarjeta project history
+Resultado actual
+	la action no se muestra, se debe hacer un refresh para que se muestre
+
+
+
 
 
 Feature(test case de aceptacion):
