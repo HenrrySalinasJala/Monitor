@@ -1,11 +1,36 @@
+TEST CASE: 001
+TITLE:New Projet:Create a project with valid steps
+PRIORITY:1
+DESCRIPTION:It creates a new project, verifying that their registration has valid data
+               
+REQUIREMENTS
+        Hardware Requirements: Pc- Computer x64bits 
+        Software Requirements:Windows Server 2013R2
+                              Navegador Chrome
+        Setup Requirements:login in JAT
+STEPS
+1.Go to New Project button  
+2.A screen with formulary of New Project :Project Tiltle, Project Start Date, 
+            Iteration Length, Point Scale, Velocity Strategy
+            and Number of Done Iterations to Show
+3.Enter a "Type in the title of the project
+  (at least 4 characters long)" text field
+4.Escribir el nombre del proyecto
+5.Presionar el boton Guardar
+EXPECTED RESULT:Creacion de un nuevo proyecto
+TEST CASE CREATION DATE 2/23/2016
+RUNNING ESTIMATED TIME: 10 seg
+
+
 Funcionalidad(test case aceptation)
 
-Feature:Desplegar menu de New Project  
+Desplegar menu de New Project  
 Description:Al presiona en el boton New Project muestra un menu:
             Project Tiltle, Project Start Date, 
             Iteration Length, Point Scale, Velocity Strategy
             and Number of Done Iterations to Show.   
 Expected Result:Muestra en DASHBOARD el nombre del proyecto creado.
+
 
 Feature:Cerrar Fomulario New Project
 Description:Al presiona el icono de cierre de la ventana (X) deja de mostrarse el formulario
